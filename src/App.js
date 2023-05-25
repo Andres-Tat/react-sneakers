@@ -21,12 +21,19 @@ function App() {
         </ul>
       </header>
       <div className="content p-40">
-        <h1 className="mb-40">Все кроссовки</h1>
+        <div className="d-flex align-center justify-between mb-40">
+          <h1>Все кроссовки</h1>
+          <div className="search-block d-flex">
+            <img src="/img/sneakers/search.svg" alt="Search" />
+            <input placeholder="Поиск..." /> 
+          </div>
+        </div>
         
 
 
       <div className="d-flex">
       <div className="card">
+        <img src="/img/sneakers/heart-unliked.svg" alt="Unliked" />
         <img width={133} height={112} src="/img/sneakers/1.jpg" alt="Sneakers"></img>
         <h5>Мужские Кроссовки Nike Blazer Mid Suede</h5>
         <div className="d-flex justify-between align-center">
