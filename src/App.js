@@ -20,7 +20,7 @@ function App() {
           </li>        
         </ul>
       </header>
-      
+
       <div className="content p-40">
         <div className="d-flex align-center justify-between mb-40">
           <h1>Все кроссовки</h1>
@@ -34,7 +34,9 @@ function App() {
 
         <div className="d-flex">
           <div className="card">
-            <img src="/img/sneakers/heart-unliked.svg" alt="Unliked" />
+            <div className="favourite">
+              <img src="/img/sneakers/heart-unliked.svg" alt="Unliked" />
+            </div>
             <img width={133} height={112} src="/img/sneakers/1.jpg" alt="Sneakers"></img>
             <h5>Мужские Кроссовки Nike Blazer Mid Suede</h5>
             <div className="d-flex justify-between align-center">
