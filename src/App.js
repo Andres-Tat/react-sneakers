@@ -5,6 +5,13 @@ function App() {
       <div className="overlay">
         <div className="drawer">
           <h2>Корзина</h2>
+          <div className="cartItem">
+            <img src="/img/sneakers/1.jpg" alt="Sneakers" ></img>
+            <div>
+              <p>Мужские Кроссовки Nike Blazer Mid Suede</p>
+              <b>12 999 руб.</b>
+            </div>
+          </div>
         </div>
       </div>
       <header className="d-flex justify-between align-center p-40">
