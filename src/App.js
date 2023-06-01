@@ -25,6 +25,9 @@ function App() {
                 </div>
               <img className="removeBtn" src="/img/sneakers/btn-rem1.svg" alt="Remove" />
             </div>
+
+
+            
           </div>
 
           <ul className="cartTotalBlock">
