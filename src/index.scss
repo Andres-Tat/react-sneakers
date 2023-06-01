@@ -131,22 +131,13 @@ h2 {
 
 
 .cartTotaBlock {
-  li {
-    display: flex;
-    align-items: flex-end;
-    margin-bottom: 20px;
-  }
-
-
   div {
     flex: 1;
     height: 1px;
-    border-bottom: 1px dashed #dfdfdf;
-    position: relative;
-    top: -4px;
-    margin: 0 7px;
+    border: 1px dashed #dfdfdf
   }
 }
+
 
 .cartItem {
   border: 1px solid #f3f3f3;

@@ -26,7 +26,8 @@ function App() {
               <img className="removeBtn" src="/img/sneakers/btn-rem1.svg" alt="Remove" />
             </div>
           </div>
-          <ul>
+
+          <ul className="cartTotalBlock">
             <li className="d-flex">
               <span>Итого:</span>
               <div></div>
