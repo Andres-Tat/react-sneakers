@@ -3,6 +3,7 @@ function App() {
     <div className="wrapper clear">
       <div className="overlay">
         <div className="drawer">
+
           <h2 className="mb-30">Корзина</h2>
 
           <div className="Items">
@@ -23,20 +24,20 @@ function App() {
               </div>
               <img className="removeBtn" src="/img/sneakers/btn-rem1.svg" alt="Remove"></img>
             </div>
-          </div>
 
-          <ul>
-            <li>
-              <span>Итого: </span>
-              <div></div>
-              <b>21 498 руб. </b>
-            </li>
-            <li>
-              <span>Налог 5%: </span>
-              <div></div>
-              <b>1074 руб. </b>
-            </li>
-          </ul>
+              <ul className="cartTotalBlock">
+                <li>
+                  <span>Итого: </span>
+                  <div></div>
+                  <b>21 498 руб. </b>
+                </li>
+                <li>
+                  <span>Налог 5%: </span>
+                  <div></div>
+                  <b>1074 руб. </b>
+                </li>
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -44,7 +45,7 @@ function App() {
 
       <header className="d-flex justify-between align-center p-40">
         <div className="d-flex align-center">
-          <img width={40} height={40} src="/img/logo.png" />
+          <img width={40} height={40} src="/img/logo.png" alt="" />
           <div>
             <h3 className="text-uppercase">React Sneakers</h3>
             <p className="opacity-5">Магазин лучших кроссовок</p>
@@ -52,11 +53,11 @@ function App() {
         </div>
         <ul className="headerRight d-flex">
           <li className="mr-30">
-            <img width={18} height={18} src="/img/card.svg" />
+            <img width={18} height={18} src="/img/card.svg" alt="" />
             <span>1205 руб.</span>
           </li>
           <li>
-            <img width={18} height={18} src="/img/user.svg" />
+            <img width={18} height={18} src="/img/user.svg" alt="" />
           </li>        
         </ul>
       </header>
