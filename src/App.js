@@ -2,40 +2,41 @@ function App() {
   return (
     <div className="wrapper clear">
       
-      
-
-    
-      <header className="d-flex justify-between align-center p-40">
-        <div className="d-flex align-center">
-          <img width={40} height={40} src="/img/logo.png" alt="" />
-          <div>
-            <h3 className="text-uppercase">React Sneakers</h3>
-            <p className="opacity-5">Магазин лучших кроссовок</p>
-          </div>
-        </div>
-        <ul className="headerRight d-flex">
-          <li className="mr-30">
-            <img width={18} height={18} src="/img/card.svg" alt="" />
-            <span>1205 руб.</span>
-          </li>
-          <li>
-            <img width={18} height={18} src="/img/user.svg" alt="" />
-          </li>        
-        </ul>
-      </header>
-
-        <div className="content p-40">
-          <div className="d-flex align-center justify-between mb-40">
-            <h1>Все кроссовки</h1>
-            <div className="search-block d-flex">
-              <img src="/img/sneakers/search.svg" alt="Search" />
-              <input placeholder="Поиск..." /> 
+          <header className="d-flex justify-between align-center p-40">
+            <div className="d-flex align-center">
+              <img width={40} height={40} src="/img/logo.png" alt="" />
+              <div>
+                <h3 className="text-uppercase">React Sneakers</h3>
+                <p className="opacity-5">Магазин лучших кроссовок</p>
+              </div>
             </div>
-          </div>
+            <ul className="headerRight d-flex">
+              <li className="mr-30">
+                <img width={18} height={18} src="/img/card.svg" alt="" />
+                <span>1205 руб.</span>
+              </li>
+              <li>
+                <img width={18} height={18} src="/img/user.svg" alt="" />
+              </li>        
+            </ul>
+          </header>
+
+          <div className="content p-40">
+            <div className="d-flex align-center justify-between mb-40">
+              <h1>Все кроссовки</h1>
+              <div className="search-block d-flex">
+                <img src="/img/sneakers/search.svg" alt="Search" />
+                <input placeholder="Поиск..." /> 
+              </div>
+            </div>
         
+        
+            
 
 
-          <div className="d-flex">
+
+
+            <div className="d-flex">
               <div className="card">
                 <div className="favourite">
                   <img src="/img/sneakers/heart-unliked.svg" alt="Unliked" />
@@ -95,7 +96,7 @@ function App() {
                 </div>
               </div>
             </div>
-        </div>
+          </div>
     </div>
   );
 }
