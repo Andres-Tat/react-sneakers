@@ -114,6 +114,8 @@ header {
 
 
 .drawer {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   width: 420px;
   height: 100%;
@@ -131,11 +133,15 @@ header {
   li {
     display: flex;
     align-items: flex-end;
+    margin-bottom: 20px;
 
     div {
       flex: 1;
-      height: 1;
+      height: 1px;
       border-bottom: 1px dashed #dfdfdf;
+      position: relative;
+      top: -4px;
+      margin: 0 7px;
     }
   }
 }
@@ -156,6 +162,7 @@ header {
     background-repeat: no-repeat;
     margin-right: 20px;
   }
+
   p {
     font-size: 16px;
     margin: 0;

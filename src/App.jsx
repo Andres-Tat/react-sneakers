@@ -5,7 +5,7 @@ function App() {
         <div className="drawer">
           <h2 className="mb-30">Корзина</h2>
 
-          <div className="items">
+          <div className="items flex">
             <div className="cartItem d-flex align-center mb-20">
               <div
                 style={{ backgroundImage: "url(/img/sneakers/1.jpg)" }}
