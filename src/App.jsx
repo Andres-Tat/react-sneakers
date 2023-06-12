@@ -3,7 +3,15 @@ function App() {
     <div className="wrapper clear">
       <div className="overlay">
         <div className="drawer">
-          
+          <h2>Корзина</h2>
+
+          <div className="cartItem">
+            <img src="/img/sneakers/1.jpg" alt="Sneakers" />
+            <div>
+              <p>Мужские Кроссовки Nike Air Max 270</p>
+              <b>12 999 руб.</b>
+            </div>
+          </div>
         </div>
       </div>
 
