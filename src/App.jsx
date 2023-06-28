@@ -1,7 +1,7 @@
 function App() {
   return (
     <div className="wrapper clear">
-      <div className="overlay">
+      <div style={{ display: "none" }} className="overlay">
         <div className="drawer">
           <h2 className="mb-30">Корзина</h2>
 
