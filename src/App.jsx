@@ -5,9 +5,7 @@ import Drawer from "./components/Drawer";
 function App() {
   return (
     <div className="wrapper clear">
-      <div style={{ display: "none" }} className="overlay">
-        <Drawer />
-      </div>
+      <Drawer />
       <Header />
       <div className="content p-40">
         <div className="d-flex align-center justify-between mb-40">
