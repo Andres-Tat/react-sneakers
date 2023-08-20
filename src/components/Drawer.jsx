@@ -1,6 +1,6 @@
 function Drawer() {
   return (
-    <div style={{ display: "none" }} className="overlay">
+    <div style={{ display: "" }} className="overlay">
       <div className="drawer">
         <h2 className="mb-30">Корзина</h2>
 
